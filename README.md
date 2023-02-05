@@ -1,7 +1,9 @@
 # FitnessFreak
-
+## Abstract <hr>
 #### Fitness Freak is an Android Application developed using Android Studio. Fitness Freak Consists of basic diet plan for Veg and Non Veg and it also shows the different exercises.
 #### Fitness Freak has an Login and signup facility( The app is integrated with the firebase) and also has a profile page where an individual can easily updates his/her profile
+
+## Photos <hr>
 ![Signup](https://user-images.githubusercontent.com/61222981/216818675-98397861-5b7c-458c-999a-08c25a3974fc.png)
 ![dashboard](https://user-images.githubusercontent.com/61222981/216818653-24a43bfd-cc47-42d1-afc5-a04fc3ee4bc2.png)
 ![Profile](https://user-images.githubusercontent.com/61222981/216818673-22aadf26-8864-425d-947b-3ae89fb8dd56.png)
