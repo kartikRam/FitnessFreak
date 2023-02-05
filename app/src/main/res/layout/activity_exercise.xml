@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exercise">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercises  Videos:"
+        android:textStyle="bold"
+        android:textColor="#ff9800"
+        android:textSize="28sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:videoId="t7RhG0CEbVw"
+        app:autoPlay="false"
+        app:showFullScreenButton="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 Days Yoga Challenge for Weight loss"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="9dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:videoId="m756Gz8de4M"
+        app:autoPlay="false"
+        app:showFullScreenButton="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 Days Yoga Challenge for Weight loss"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:videoId="_fIpXqnAKpk"
+        app:autoPlay="false"
+        app:showFullScreenButton="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Squats  for Weigh loss"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:videoId="G3J0XwUlEBo"
+        app:autoPlay="false"
+        app:showFullScreenButton="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight Lifting"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

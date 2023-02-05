@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SevenDayNonvegPlan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/current_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginLeft="155dp"
+            />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/monday"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="100dp">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Breakfast"
+                            android:textColor="@color/black"
+                            android:layout_marginRight="30dp"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:text="  Two fruits like apple or
+                                    banana,  1 cup of tea."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="-10dp"
+                            />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lunch"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:layout_marginRight="30dp"
+                            android:textStyle="bold"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Replace white carbohydrates like rice, bread, potatoes or pasta with whole "
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="wheat bread or chapattis,
+                                            1 piece of chicken with salad or
+                                                fruit."
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+                        </LinearLayout>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dinner"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:layout_marginRight="30dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:text="Fish, steamed broccoli
+                                        any leafy vegetables and fat
+                                                            free ice cream."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tuesday"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="100dp">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Breakfast"
+                            android:textColor="@color/black"
+                            android:layout_marginRight="30dp"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:text="1 bowl Poha or Upma or Idli."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="-10dp"
+                            />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lunch"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:layout_marginRight="30dp"
+                            android:textStyle="bold"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 chapattis or small bowl "
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" of rice with vegetables."
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+                        </LinearLayout>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Snack"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:layout_marginRight="30dp"
+                            android:textStyle="bold"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 5 Digestive biscuits with tea
+                                    (Try green tea, which is
+                                                "
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" highly recommended for
+                                         weight loss and health.)"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+                        </LinearLayout>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dinner"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:layout_marginRight="30dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:text="Light dinner of salad whole
+                            wheat bread sandwich."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/wednesday"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="100dp">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Breakfast"
+                            android:textColor="@color/black"
+                            android:layout_marginRight="30dp"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:text="1 bowl of Poha or Upma
+                                                or Idli.Apple or banana topped
+                                                with a teaspoon of honey."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="-10dp"
+                            />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lunch"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:layout_marginRight="30dp"
+                            android:textStyle="bold"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 cup rice,and dal,vegetable
+                                 curry, any fruits like "
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="grapes, or bananas."
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                />
+                        </LinearLayout>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dinner"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:layout_marginRight="30dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:text="Vegetable curry, chapattis,
+                                                            and baked or steamed
+                                                      potato."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

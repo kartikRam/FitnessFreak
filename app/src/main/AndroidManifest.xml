@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitnessfreakv1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessFreakV1">
+        <activity android:name=".SelectFunctionality"></activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".SevenDayNonvegPlan" />
+        <activity android:name=".Exercise" />
+        <activity android:name=".SevenDayVegDiet" />
+        <activity android:name=".NonVegPlan" />
+        <activity android:name=".VegPlan" />
+        <activity android:name=".choosePlan" />
+        <activity android:name=".index" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SevenDayVegDiet">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+        android:id="@+id/current_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginLeft="155dp"
+        />
+
+        </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/monday"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6:30 AM"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="50dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="Cucumber Detox Water
+                                                  (1 glass)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="-10dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8:00 AM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Oats Porridge in Skimmed
+                                        Milk"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="(1 bowl) Mixed Nuts
+                                            (25 grams)"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Skimmed Milk Paneer
+                                            (100 grams)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2:10 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:text="Dal(1 katori)Gajar Matar
+                                        Sabzi(1 katori)
+                                         Roti (1 roti/chapati)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Cut Fruits(1 cup)
+                                        Buttermilk(1 glass)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5:30 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Tea with Less Sugar
+                                        and Milk(1 teacup)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:text="Dal(1 katori)Lauki
+                                                Sabzi(1 katori)
+                                             Roti (1 roti/chapati)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tuesday"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6:30 AM"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="50dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="Cucumber Detox Water
+                                                  (1 glass)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="-10dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8:00 AM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Curd(1.5 katori)Mixed
+                                            Vegetable "
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stuffed Roti(2 piece)"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Skimmed Milk Paneer
+                                            (100 grams)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2:10 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:text="Lentil Curry(0.75 bowl)
+                                        Methi
+                                                                Rice(0.5 katori)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:text="4:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Apple(0.5 small (2-3 dia))
+                                            Buttermilk(1 glass)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5:30 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Coffee with Milk and
+                                        Less Sugar(0.5 tea cup)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:text="Sauteed Vegetables with
+                                Paneer(1 katori)Roti
+                                 (1 roti/chapati)
+                                    Green Chutney(2 tablespoon)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wednesday"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6:30 AM"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="50dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:text="Cucumber Detox Water
+                                                  (1 glass)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="-10dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8:00 AM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Skim Milk Yoghurt(1 cup
+                                            (8 fl oz)) "
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multigrain Toast(2 toast)"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Skimmed Milk Paneer
+                                            (100 grams)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2:10 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="105dp"
+                        android:text="Sauteed Vegetables with
+                                                            Paneer(1 katori)Roti
+                                    (1 chapati/Roti) Green
+                                    Chutney (2 tablespoon)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:text="4:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Banana(0.5 small (″6 to 8″
+                         long))Buttermilk(1 glass)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5:30 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Tea with Less Sugar
+                                            and Milk(1 teacup)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9:00 PM"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:text="Lentil Curry(0.75 bowl)
+                                        Methi Rice(0.5 katori)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
