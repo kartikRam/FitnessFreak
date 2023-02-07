@@ -7,7 +7,7 @@
 #### [Click Here to view the working video of the Application](https://drive.google.com/file/d/1X2GTHmdVbRs509uUeGEHP-zE_F86BC7V/view?usp=sharing)
 
 ## Photos <hr>
-![Signup](https://user-images.githubusercontent.com/61222981/216818675-98397861-5b7c-458c-999a-08c25a3974fc.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Signup](https://user-images.githubusercontent.com/61222981/216818675-98397861-5b7c-458c-999a-08c25a3974fc.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![dashboard](https://user-images.githubusercontent.com/61222981/216818653-24a43bfd-cc47-42d1-afc5-a04fc3ee4bc2.png)
 ![Profile](https://user-images.githubusercontent.com/61222981/216818673-22aadf26-8864-425d-947b-3ae89fb8dd56.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Plan](https://user-images.githubusercontent.com/61222981/216818666-7d217182-0ad3-44f3-a10c-7e599e45c0ae.png)
